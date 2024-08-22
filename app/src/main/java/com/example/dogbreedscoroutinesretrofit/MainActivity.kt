@@ -20,13 +20,5 @@ class MainActivity : AppCompatActivity() {
                vb.tvText.text = "${vb.tvText.text}, $i"
             }
         }
-        azxdasdsadasdas
-
-
-
-
-
     }
-
-
 }
