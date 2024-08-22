@@ -1,2 +1,2 @@
 # DogBreedsCoroutinesRetrofit
- MVVM, Coroutines and Retrofit practice
+ MVVM, Coroutines, DataBinding and Retrofit practice
