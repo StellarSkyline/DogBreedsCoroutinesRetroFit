@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         vm.getPoodle()
         vm.poodle.observe(this) {
             for(i in it) {
-               vb.tvText.text = "${vb.tvText.text}, $i"
+               vb.tvText.text = if(vb.tvText.text == "") i else "${vb.tvText.text}, $i"
             }
         }
     }
