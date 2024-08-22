@@ -14,12 +14,7 @@ class MainActivityViewModel:ViewModel() {
     fun getPoodle() {
         viewModelScope.launch {
             val response = repo.getPoodle()
-
-            if(response.isSuccessful) {
-                poodle.value = response.body()!!.message.poodle!!
-            }
-
-
+            if(response.isSuccessful) poodle.value = response.body()!!.message.poodle!!
         }
     }
 
